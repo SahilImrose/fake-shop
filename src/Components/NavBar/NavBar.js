@@ -1,10 +1,9 @@
-import { Button, TextField } from '@mui/material';
+import { TextField } from '@mui/material';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from "../../library/image/logo.svg";
 
 const NavBar = () => {
-    const [search, setSearch] = useState("")
 
     const onSearch = () => {
         setSearch(document.querySelector('#saad-input').value)
