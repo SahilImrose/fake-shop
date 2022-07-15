@@ -1,10 +1,53 @@
 body {
-  margin: 0;
+  margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #dddddd !important;
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.card-pd a{
+  text-decoration: none !important;
+  color: #212529 !important;
+
+}
+.card-pd a img{
+  text-decoration: none !important;
+  color: #212529 !important;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.card-pd a img:hover{
+  opacity: 1;
+  transform: scale(1.1);
+  transform-origin: top;
+}
+::-webkit-scrollbar{
+  background: transparent;
+  width: 10px;
+  padding-right: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(rgb(207, 112, 90),rgb(140, 72, 210));
+  border-radius: 50px;
+  transition: 0.5s;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: rgb(207, 112, 90);
+}
+::-webkit-scrollbar-thumb:active{
+  background: rgb(140, 72, 210);
+}
+a{
+text-decoration: none !important;
+}
+a:hover{
+text-decoration: none !important;
 }
 
 code {

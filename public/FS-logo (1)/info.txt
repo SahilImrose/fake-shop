@@ -1,0 +1,11 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: unb-office_bold-italic
+font link: http://www.marca.unb.br/fontesunb.php
+font author: Universidade de Brasilia
+font author site: http://www.marca.unb.br/introducao.php
+
+
+{"bg":"#EBE9F5","icon-gradient-0":"#6566CE","icon-gradient-1":"#DBC1D0","font":"#2E2B3C","slogan":"#423f50"}
+      
