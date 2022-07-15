@@ -5,14 +5,6 @@ import Logo from "../../library/image/logo.svg";
 
 const NavBar = () => {
 
-    const onSearch = () => {
-        setSearch(document.querySelector('#saad-input').value)
-    }
-
-
-
-
-
     return (<>
         <header>
             <nav className="navbar navbar-expand-lg navbar-light bg-light shadow">
